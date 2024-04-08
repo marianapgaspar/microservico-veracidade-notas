@@ -4,7 +4,7 @@
   "description": "Aplicação/microserviço para verificar se a nota fiscal é válida",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "dev": "nodemon app.ts"
   },
   "repository": {

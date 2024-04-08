@@ -8,7 +8,7 @@ routes.get("/", async (req: Request, res: Response) => {
     res.send("Hello world");
 })
 
-routes.post('/verify', async (req: Request, res: Response) => {
+routes.get('/valida', async (req: Request, res: Response) => {
     await controller.verify(req, res);
 });
 
